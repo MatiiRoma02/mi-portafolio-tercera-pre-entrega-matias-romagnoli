@@ -1,0 +1,44 @@
+/* NAVBAR */
+.bgPropio {
+    background-color: #1c2125;
+    z-index: -1;
+
+    .navbar-toggler {
+        background-color: #d1cfd0;
+        text-decoration: none;
+        border-color: blueviolet;
+    }
+
+    a {
+        color: #d1cfd0;
+    }
+
+    .bgPropio .offcanvas-end {
+        background-color: #d1cfd0;
+    }
+
+    .offcanvas-end {
+        background-color: blueviolet;
+    }
+
+    .offcanvas-title {
+        color: #d1cfd0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .offcanvas-body {
+        background-color: blueviolet;
+
+
+    }
+
+    .nav-link {
+        color: #d1cfd0 !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .navbar-brand:hover {
+        color: blueviolet !important;
+    }
+}

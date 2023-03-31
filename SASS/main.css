@@ -1,0 +1,288 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Delicious Handrawn", cursive;
+  font-family: "Kanit", sans-serif;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  border-top: var(--bs-border-width) solid;
+  opacity: 0.25;
+  color: blueviolet;
+}
+
+h1 {
+  animation-name: fadeAndChangeColor;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeAndChangeColor {
+  0% {
+    opacity: 1;
+    color: black;
+  }
+  50% {
+    opacity: 0;
+    color: #d1cfd0;
+  }
+  100% {
+    opacity: 1;
+    color: blueviolet;
+  }
+}
+h2 {
+  color: #1c2125;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+  color: #1c2125;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h4 {
+  color: #1c2125;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  color: blueviolet;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+div .col {
+  color: #1c2125;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* FONDO */
+.contenedor-principal {
+  background-image: url(/IMG/absLunaMontaña.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* NAVBAR */
+/* NAVBAR */
+.bgPropio {
+  background-color: #1c2125;
+  z-index: -1;
+}
+.bgPropio .navbar-toggler {
+  background-color: #d1cfd0;
+  text-decoration: none;
+  border-color: blueviolet;
+}
+.bgPropio a {
+  color: #d1cfd0;
+}
+.bgPropio .bgPropio .offcanvas-end {
+  background-color: #d1cfd0;
+}
+.bgPropio .offcanvas-end {
+  background-color: blueviolet;
+}
+.bgPropio .offcanvas-title {
+  color: #d1cfd0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.bgPropio .offcanvas-body {
+  background-color: blueviolet;
+}
+.bgPropio .nav-link {
+  color: #d1cfd0 !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.bgPropio .navbar-brand:hover {
+  color: blueviolet !important;
+}
+
+#carouselExample {
+  margin-top: 20px;
+}
+
+.w-100 {
+  width: 1400px !important;
+  height: 600px !important;
+  padding: 20px !important;
+}
+
+/* FOOTER */
+.footerPropio {
+  padding: 30px 0;
+  background-color: #1c2125;
+}
+.footerPropio h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: blueviolet;
+}
+.footerPropio ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #d1cfd0;
+}
+.footerPropio li {
+  margin-bottom: 10px;
+}
+.footerPropio a {
+  color: #d1cfd0;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.footerPropio a:hover {
+  color: blueviolet;
+}
+.footerPropio .imgFooter {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.footerPropio .footerGit {
+  width: 35px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+
+/* CONTACTO */
+.form-label {
+  color: blueviolet !important;
+}
+
+.contenedor .form .form-header .form-title {
+  font-weight: normal;
+  color: blueviolet;
+  text-align: center;
+  padding: 14px 0;
+}
+
+.contenedor .form .form-header .form-title span {
+  color: blueviolet;
+}
+
+.contenedor .form {
+  background: #1c2125;
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+}
+
+.contenedor .form .form-label {
+  display: block;
+  color: #d1cfd0;
+  font-size: 16px;
+  position: relative;
+}
+
+.contenedor .form .form-input,
+.form-textarea {
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #d1cfd0;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #d1d1d1;
+}
+
+.contenedor .form .form-textarea {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
+}
+
+.contenedor .form .btn-submit {
+  width: 100%;
+  outline: none;
+  background: rgba(137, 43, 226, 0.798);
+  font-size: 16px;
+  border: none;
+  color: #d1cfd0;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.contenedor .form .btn-submit:hover {
+  background-color: blueviolet;
+}
+
+.imgIg,
+.imgWtpp,
+.imgFace {
+  width: 50px !important;
+}
+
+/* MIS PROYECTOS */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 2s ease;
+}
+
+.grid-item:hover {
+  padding: 5px;
+  background-color: blueviolet;
+  border: 2px solid #1c2125 !important;
+  transition: border-color 2s unset !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* SOBRE MÍ */
+.imgSombreMi {
+  width: 450px !important;
+  height: 450px !important;
+  margin: 0 !important;
+  border-radius: 50% !important;
+  border: 2px solid #1c2125 !important;
+  transition: border-color 0.3s ease-in-out !important;
+  animation: fadeIn 3s ease;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(20px);
+  }
+  10% {
+    opacity: 1;
+    filter: brightness(2) blur(10px);
+  }
+}
+.imgSombreMi:hover {
+  border-color: blueviolet !important;
+}/*# sourceMappingURL=main.css.map */
